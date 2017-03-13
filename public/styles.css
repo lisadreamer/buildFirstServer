@@ -1,0 +1,44 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #7473BD, #FFACAC);
+    background: -webkit-linear-gradient(right, #7473BD, #FFACAC);
+    background: -moz-linear-gradient(right, #7473BD, #FFACAC);
+}
+.main-title {
+    color: #2C3F6B;
+    border-bottom-style: solid;
+    border-bottom-color: #2C3F6B;
+}
+
+.news-header {
+    color: #FFFFFF;
+}
+
+.container {
+    border-style: solid;
+    border-color: #A6A2DC;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 8px #7473BD;
+}
+
+.container > p {
+    color: white;
+}
+
+#like-button-1,
+#like-button-2,
+#like-button-3 {
+    display: none;
+    background-color: #2C3F6B;
+    color: white;
+    border-radius: 10px; 
+    border-style: none;
+}
+#like-count-1,
+#like-count-2,
+#like-count-3 {
+    display: inline;
+    color: white;
+}
